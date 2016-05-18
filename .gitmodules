@@ -1,0 +1,9 @@
+[submodule "kong-vagrant"]
+	path = kong-vagrant
+	url = https://github.com/Mashape/kong-vagrant.git
+[submodule "kong"]
+	path = kong
+	url = https://github.com/Mashape/kong.git
+[submodule "kong-dashboard"]
+	path = kong-dashboard
+	url = https://github.com/PGBI/kong-dashboard.git
