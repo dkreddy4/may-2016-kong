@@ -7,6 +7,7 @@ cd kong-vagrant
   vagrant ssh -c "sudo kong start"
 
 cd ../kong-dashboard
+  npm install
   npm start &
   echo "Sleeping for 3 seconds while Dashboard boots"
   sleep 3
