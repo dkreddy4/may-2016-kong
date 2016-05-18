@@ -12,6 +12,8 @@ He then did a live demo of Kong. You can run your own demo too...
 
 ## Setup
 
+**Note: Since this repository uses [submodules](https://github.com/blog/2104-working-with-submodules), make sure you clone this repository using `git clone --recursive https://github.com/minnesota-apis/may-2016-kong.git`**
+
 After checking out this repository, you should just be able to run `starter.sh` to start the services and `stopper.sh` to bring them down. All `starter.sh` does is:
 * Changes into the _kong-vagrant_ directory, starts the vagrant box, and then tells the vagrant box to start the **kong** service
 * Changes into the _kong-dashboard_ directory, and runs `npm start` which installs all the dependencies and starts the Node.js dashboard
