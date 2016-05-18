@@ -16,8 +16,8 @@ He then did a live demo of Kong. You can run your own demo too...
 
 After checking out this repository, you should just be able to run `starter.sh` to start the services and `stopper.sh` to bring them down. All `starter.sh` does is:
 * Changes into the _kong-vagrant_ directory, starts the vagrant box, and then tells the vagrant box to start the **kong** service
-* Changes into the _kong-dashboard_ directory, and runs `npm start` which installs all the dependencies and starts the Node.js dashboard
-* Opens your web browser to http://localhost:8080/, which is the default location for the dashboard.
+* Changes into the _kong-dashboard_ directory, and runs `npm install` which installs all the dependencies and `npm start` to launch the Node.js dashboard
+* Opens your web browser to http://localhost:8080/, which is the default location for the dashboard
 
 Inside the dashboard, you'll want to point it to http://localhost:8001/, which is the Kong admin API.
 
